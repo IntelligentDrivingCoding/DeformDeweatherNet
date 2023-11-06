@@ -21,7 +21,7 @@ einops
 
 The following commands are examples of training the model
 ```bash
-CUDA_VISIBLE_DEVICES=2 python train.py -train_dir "/dataset/public/raindrop/test" -test_dir "/dataset/public/raindrop/train" -rain_subdir "data" -gt_subdir "gt"
+CUDA_VISIBLE_DEVICES=0 python train.py -train_dir "/dataset/public/raindrop/test" -test_dir "/dataset/public/raindrop/train" -rain_subdir "data" -gt_subdir "gt"
 ```
 
 **Note**: The dataset is organized as follows:
